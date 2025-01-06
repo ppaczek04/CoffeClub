@@ -14,6 +14,7 @@ body{
     height: 60px;
 
     background-color: rgb(190, 142, 78);
+    font-weight: bold;
 }
 .grid-container{
     display:grid;
@@ -32,12 +33,24 @@ body{
     font-size: 1.2rem;
     padding: 10px 0 10px 0;
 }
+.flexpart.flex1{
+    border: 4px solid #503912;
+}
+.flexpart.flex2{
+    
+}
+.flexpart.flex3{
+    
+}
+.flexpart.flex4{
+    
+}
 .gridpart{
     background-color: aquamarine;
     border-radius: 2px;
 }
 .gridpart.topLeft{
-    background-color: rebeccapurple;
+    background-color: rgb(102, 51, 153);
     grid-area: 1/2/3/4;
 }
 .gridpart.topRight{
@@ -45,13 +58,80 @@ body{
     grid-area: 1/4/3/5;
 }
 .gridpart.bottomLeft{
-    background-color: rebeccapurple;
+    background-color: rgb(102, 51, 153);
     grid-area: 3/2/4/4;
 }
 .gridpart.bottomRight{
-    background-color: rgb(153, 114, 51);
+    background-color: #997233;
     grid-area: 3/4/4/5;
 }
+
+
+.topLeft .textTopLeft{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.topLeft p{
+    margin: 20px 80px 20px 80px;
+}
+.topLeft .specialFont{
+    font-weight: bold;
+    color: rgb(58, 24, 4);
+}
+.topLeft-flex-container{
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    width: 100%;
+    height: 100%; /* Optional, if needed to fill the parent */
+    gap: 20px;
+}
+
+
+.topRight .textTopRight{
+    text-align: center;
+    font-size: 2.4rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.topRight .topInfo{
+    margin: 40px 0px 80px 0px;
+}
+
+
+.bottomLeft .textBottomLeft{
+    text-align: center;
+    font-size: 1.8rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.bottomLeft ul{
+    list-style: none;
+    padding: 0
+}
+.bottomLeft p{
+    margin: 20px 0px 0px 0px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    color:yellow;
+    
+}
+
+
+.bottomRight .imgPartnerships{
+    margin-top:20px;
+    float: left;
+}
+.bottomRight .textBottomRight{
+    margin: 20px 20px 20px 20px;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.bottomRight .specialFont{
+    font-weight: bold;
+    color: darkblue;
+}
+
+
 footer{
     text-align: center;
     background-color: #706524;
