@@ -29,6 +29,110 @@ body{
     border: 4px solid #503912;
 }
 
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 800px;
+    gap:20px;
+}
+.grid-container .picture1{
+    grid-area: 1/2/2/3;
+    background-color: rgb(200, 150, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container .text1{
+    grid-area: 2/2/3/3;
+    background-color: rgb(191, 164, 129);
+    text-align: center;
+    
+}
+.grid-container .text1 p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+.grid-container .text1 ul{
+    font-size: 1.4rem;
+    list-style: none;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+}
+.grid-container .picture2{
+    grid-area: 1/3/2/4;
+    background-color:rgb(200, 150, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container .text2{
+    grid-area: 2/3/3/4;
+    background-color:rgb(191, 164, 129);
+    text-align: center;
+    font-size: 1.4rem;
+}
+.grid-container .text2 p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+.grid-container .text2 ul{
+    font-size: 1.4rem;
+    list-style: none;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+}
+.grid-container .picture3{
+    grid-area: 1/4/2/5;
+    background-color: #c89655;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container .text3{
+    grid-area: 2/4/3/5;
+    background-color:rgb(191, 164, 129);
+    text-align: center;
+    font-size: 1.4rem;
+}
+.grid-container .text3 p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+.grid-container .text3 ul{
+    font-size: 1.4rem;
+    list-style: none;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+}
+.grid-container .picture4{
+    grid-area: 1/5/2/6;
+    background-color:rgb(200, 150, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container .text4{
+    grid-area: 2/5/3/6;
+    background-color:rgb(191, 164, 129);
+    text-align: center;
+    font-size: 1.4rem;
+}
+.grid-container .text4 p{
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+.grid-container .text4 ul{
+    font-size: 1.4rem;
+    list-style: none;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+}
+
 
 footer{
     text-align: center;
